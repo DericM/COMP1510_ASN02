@@ -34,6 +34,7 @@ public class CylinderStats {
         radius = scan.nextInt();
         System.out.print("Enter the height: "); 
         height = scan.nextInt();
+        scan.close();
         
         //calculate surface area and volume
         surfaceArea = 2 * Math.PI * (radius + height);
